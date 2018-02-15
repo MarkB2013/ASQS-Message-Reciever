@@ -1,0 +1,39 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SQSMessageReceiver.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="accessPKey" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Insert AWS public key here</Value>
+    </Setting>
+    <Setting Name="accessSKey" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Insert AWS private key here</Value>
+    </Setting>
+    <Setting Name="accessURL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Insert Amazon SQS URL here</Value>
+    </Setting>
+    <Setting Name="Database_Path" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Enter workbench directory here(Should be same as DEXGet and ISpy Reports workbench directory)</Value>
+    </Setting>
+    <Setting Name="SQS_Messages_Folder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">DEX\SQS Messages\</Value>
+    </Setting>
+    <Setting Name="Session_Log_Folder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Error Logs\AmazonSQSMessageReceiver\</Value>
+    </Setting>
+    <Setting Name="Excel_File" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Excel Files\Input\input.xml</Value>
+    </Setting>
+    <Setting Name="Machine_DB" Type="System.String" Scope="User">
+      <Value Profile="(Default)">DEX\Machine Database\</Value>
+    </Setting>
+    <Setting Name="Dex_Tray" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Luci Files\DEX File Tray\</Value>
+    </Setting>
+    <Setting Name="Dex_Archive" Type="System.String" Scope="User">
+      <Value Profile="(Default)">DEX\Archive\</Value>
+    </Setting>
+    <Setting Name="Machine_Archive" Type="System.String" Scope="User">
+      <Value Profile="(Default)">DEX\Machine Archive\</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
